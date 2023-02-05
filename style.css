@@ -30,6 +30,15 @@ span{
   color: #56B870;
 }
 
+.linecolored{
+   background-color: coral;
+   border: #C655BE;
+   border-style: dashed;
+   width: 100%;
+   height: 1px;
+   margin:0;
+
+}
 
 /***********************************************************************
  *  Nav Bar
@@ -68,14 +77,15 @@ a {
 }
 
 /***********************************************************************
- *  Cover
+ *  Flex Box Parent
  **********************************************************************/
 .container {
     /*show heigh: auto*/
-    height: 70vh; 
+    /* flex-direction: row-reverse; */
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 70vh;     
 }
 
 .cover {
