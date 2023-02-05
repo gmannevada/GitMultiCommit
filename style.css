@@ -23,11 +23,16 @@ body {
 /*********************************
 * MISCELLANEOUS STYLES
 *********************************/
+
+.headerspan{
+    color: greenyellow;
+}
 span{
   font-size: small;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: italic;
-  color: #56B870;
+  color: #864c8c;
+  margin: 0;
 }
 
 .linecolored{
@@ -91,6 +96,17 @@ a {
 .cover {
     width: 30rem;
 }
+/***********************************************************************
+ *  Sports Panels
+ **********************************************************************/
+
+ .basketball, .tabletennis, .soccer, .golf, .bowling
+ {
+   background-color: rgb(219, 218, 199);
+   padding: 10px;
+   border: 1px solid green;
+ }
+
 
 /***********************************************************************
  *  Grid Panel
